@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Domine", serif;
+  --font-sans: "Montserrat", sans-serif;
+
+  --color-primary: #cc8241;
+  --color-secondary: #efd6a4;
+  --color-tertiary: #a25a1e;
+  --color-accent: #c2d5b7;
+  --color-accent-dark: #A4B9A9;
+  --color-accent-darker: #65948A;
+  --color-secondary-accent: #fad9dd;
+  --color-light: #f8f0e2;
+  --color-dark: #303e2b;
+}
