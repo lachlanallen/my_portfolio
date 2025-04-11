@@ -6,10 +6,12 @@ AOS.init();
 
 <template>
     <section class="relative w-full" data-aos="zoom-in-up">
+        <!-- Background Gradients -->
         <div class="absolute top-0 inset-x-0 h-64 flex items-start">
             <div class="h-100 w-2/3 bg-gradient-to-br from-accent blur-2xl opacity-40"></div>
             <div class="h-100 w-3/5 bg-gradient-to-l from-secondary-accent blur-2xl opacity-40"></div>
         </div>
+        <!-- Hero Content -->
         <div class="w-full px-5 sm:px-8 md:px-12 lg:px-8 max-w-screen-lg lg:max-w-screen-xl mx-auto relative">
             <div
                 class="grid lg:grid-cols-2 gap-10 xl:gap-14 relative pt-24 lg:max-w-none max-w-2xl md:max-w 3xl mx-auto">
@@ -25,6 +27,7 @@ AOS.init();
                         I'm a passionate developer with a love for creating beautiful and functional web experiences.
                         Welcome to my portfolio!
                     </p>
+                    <!-- Hero Buttons -->
                     <div class="flex items-center gap-3 pt-9 flex-col sm:flex-row sm:w-max sm:mx-auto lg:mx-0">
                         <button
                             class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
@@ -46,6 +49,7 @@ AOS.init();
                         </button>
                     </div>
                 </div>
+                <!-- Hero Image -->
                 <div class="lg:h-full flex flex-col items-center justify-center sm:flex-col">
                     <div
                         class="flex w-full h-96 min-h-[24rem] lg:min-h-[none] lg:w-full lg:h-full items-center justify-center relative">
