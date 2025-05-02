@@ -1,13 +1,15 @@
 <script setup>
-import lithavenImg from '@/assets/project-imgs/lithaven-thumbnail.png';
-import sproutGrowImg from '@/assets/project-imgs/sprout-grow-thumbnail.png';
-import pokesearchImg from '@/assets/project-imgs/pokesearch-thumbnail.png';
-import alpineImg from '@/assets/project-imgs/alpine-thumbnail.png';
-import climacastImg from '@/assets/project-imgs/climacast-thumbnail.png';
 import { defineAsyncComponent } from 'vue';
 import lithavenCaseStudy from '@/assets/case-studies/Allen-CaseStudy.pdf';
-import alpineCaseStudy from '@/assets/case-studies/Allen-CaseStudy2.pdf';
+import alpineCaseStudy from '@/assets/case-studies/Allen-CaseStudy2.pdf'; 
 const FooterSection = defineAsyncComponent(() => import('@/components/FooterSection.vue'));
+
+const lithavenImg = '/project-imgs/lithaven-thumbnail.png';
+const sproutGrowImg = '/project-imgs/sprout-grow-thumbnail.png';
+const pokesearchImg = '/project-imgs/pokesearch-thumbnail.png';
+const alpineImg = '/project-imgs/alpine-thumbnail.png';
+const climacastImg = '/project-imgs/climacast-thumbnail.png';
+
 </script>
 
 <template>

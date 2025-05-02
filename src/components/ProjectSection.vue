@@ -1,17 +1,11 @@
 <script setup>
 import { ref, computed } from 'vue';
 
-import lithavenImg from '@/assets/project-imgs/lithaven-thumbnail.png';
-import climacastImg from '@/assets/project-imgs/climacast-thumbnail.png';
-import sproutGrowImg from '@/assets/project-imgs/sprout-grow-thumbnail.png';
-import pokesearchImg from '@/assets/project-imgs/pokesearch-thumbnail.png';
-import alpineImg from '@/assets/project-imgs/alpine-thumbnail.png';
-
 const Projects = ref([
     {
         id: 1,
         category: 'prototypes',
-        image: lithavenImg,
+        image: '/project-imgs/lithaven-thumbnail.png',
         title: 'Lithaven',
         description: 'Lithaven is an app designed to support readers, of all ages, in their journey to find and read new books.',
         technologies: ['Figma'],
@@ -21,7 +15,7 @@ const Projects = ref([
     {
         id: 2,
         category: 'websites',
-        image: climacastImg,
+        image: '/project-imgs/climacast-thumbnail.png',
         title: 'Climacast',
         description: 'An intuitive weather application designed to provide users with real-time forecasts and dynamic weather visualizations.',
         technologies: ['HTML', 'CSS', 'JavaScript', 'Vue.js'],
@@ -31,7 +25,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'websites',
-        image: sproutGrowImg,
+        image: '/project-imgs/sprout-grow-thumbnail.png',
         title: 'Sprout & Grow',
         description: 'A dynamic website for Sprout & Grow, a fictional client passionate about sustainable gardening.',
         technologies: ['HTML', 'CSS'],
@@ -41,7 +35,7 @@ const Projects = ref([
     {
         id: 4,
         category: 'websites',
-        image: pokesearchImg,
+        image: '/project-imgs/pokesearch-thumbnail.png',
         title: 'PokeSearch',
         description: 'A web app that utilizes PokeAPI to display Generation 7 Pokemon and their information.',
         technologies: ['HTML', 'Tailwind CSS', 'JavaScript', 'React.js'],
@@ -51,7 +45,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'prototypes',
-        image: alpineImg,
+        image: '/project-imgs/alpine-thumbnail.png',
         title: 'Alpine Serenity Inn',
         description: 'A bed and breakfast prototype designed to offer users a seamless experience in booking their stay.',
         technologies: ['Figma'],
