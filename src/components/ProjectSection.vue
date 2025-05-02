@@ -1,11 +1,10 @@
 <script setup>
 import { ref, computed } from 'vue';
-
 const Projects = ref([
     {
         id: 1,
         category: 'prototypes',
-        image: '/project-imgs/lithaven-thumbnail.png',
+        image: 'src/assets/project-imgs/lithaven-thumbnail.png',
         title: 'Lithaven',
         description: 'Lithaven is an app designed to support readers, of all ages, in their journey to find and read new books.',
         technologies: ['Figma'],
@@ -15,7 +14,7 @@ const Projects = ref([
     {
         id: 2,
         category: 'websites',
-        image: '/project-imgs/climacast-thumbnail.png',
+        image: 'src/assets/project-imgs/climacast-thumbnail.png',
         title: 'Climacast',
         description: 'An intuitive weather application designed to provide users with real-time forecasts and dynamic weather visualizations.',
         technologies: ['HTML', 'CSS', 'JavaScript', 'Vue.js'],
@@ -25,7 +24,7 @@ const Projects = ref([
     {
         id: 3,
         category: 'websites',
-        image: '/project-imgs/sprout-grow-thumbnail.png',
+        image: 'src/assets/project-imgs/sprout-grow-thumbnail.png',
         title: 'Sprout & Grow',
         description: 'A dynamic website for Sprout & Grow, a fictional client passionate about sustainable gardening.',
         technologies: ['HTML', 'CSS'],
@@ -35,7 +34,7 @@ const Projects = ref([
     {
         id: 4,
         category: 'websites',
-        image: '/project-imgs/pokesearch-thumbnail.png',
+        image: 'src/assets/project-imgs/pokesearch-thumbnail.png',
         title: 'PokeSearch',
         description: 'A web app that utilizes PokeAPI to display Generation 7 Pokemon and their information.',
         technologies: ['HTML', 'Tailwind CSS', 'JavaScript', 'React.js'],
@@ -45,7 +44,7 @@ const Projects = ref([
     {
         id: 5,
         category: 'prototypes',
-        image: '/project-imgs/alpine-thumbnail.png',
+        image: 'src/assets/project-imgs/alpine-thumbnail.png',
         title: 'Alpine Serenity Inn',
         description: 'A bed and breakfast prototype designed to offer users a seamless experience in booking their stay.',
         technologies: ['Figma'],
