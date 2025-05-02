@@ -23,8 +23,11 @@ AOS.init();
                             </span>₊˚⟡
                         </h1>
                     </div>
-                    <p class="text-primary pt-8 text-center lg:text-left mx-auto max-w-xl">
-                        I'm a passionate developer with a love for creating beautiful and functional web experiences.
+                    <p class="text-tertiary text-xl pt-8 text-center lg:text-left mx-auto max-w-xl">
+                        Inspired by Users, Driven by Design.
+                    </p>
+                    <p class="text-tertiary pt-8 text-center lg:text-left mx-auto max-w-xl">
+                        I'm a passionate developer with a love for blending creativity with functionality to elevate user experiences.
                         Welcome to my portfolio!
                     </p>
                     <!-- Hero Buttons -->
@@ -32,8 +35,8 @@ AOS.init();
                         <button
                             class="px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <span
-                                class="absolute inset-0 rounded-3xl group-hover:scaale-105 origin-center transition-all ease-in-out bg-accent border-2 border-transparent"></span>
-                            <span class="relative flex items-center justify-center text-dark font-medium">Hire Me</span>
+                                class="absolute inset-0 rounded-3xl group-hover:scale-105 origin-center transition-all ease-in-out bg-accent border-2 border-transparent"></span>
+                            <a href="https://www.linkedin.com/in/lachlantallen" target="_blank" rel="noopener noreferrer" class="relative flex items-center justify-center text-dark font-medium">Hire Me</a>
                         </button>
                         <button
                             class="border border-accent-darker px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">

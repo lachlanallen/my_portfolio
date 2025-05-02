@@ -24,54 +24,22 @@ const education = ref([
 </script>
 
 <template>
-    <section class="text-primary mt-18" id="about">
-        <div class="absolute z-0 top-[93rem] inset-x-0 h-64 flex items-start">
-            <div class="h-24 w-64 bg-gradient-to-br from-accent to-secondary-accent blur-2xl opacity-20"></div>
-        </div>
-        <!-- Education Section -->
-        <div class="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16 z-1">
-            <div data-aos="flip-right">
-                <h2 class="text-4xl font-bold font-serif text-primary text-left mb-8">My Education</h2>
-                <div class="space-y-8 py-8">
-                    <div v-for="element in education" :key="element.id"
-                    class="flex items-center p-4 md:w-[90%] w-full rounded-xl bg-tertiary shadow-lg border border-primary"
-                    >
-                        <div class="pl-4">
-                            <img src="@/assets/book.svg" alt="Education" />
-                        </div>
-                        <div class="w-3/4 pl-4">
-                            <h3 class="text-2xl font-semibold uppercase text-transparent bg-clip-text bg-gradient-to-r from-secondary to-light lg:text-xl">
-                                {{ element.degree }}
-                            </h3>
-                            <p class="text-light">{{ element.concentration }}</p>
-                            <p class="text-light">{{ element.institution }}</p>
-                            <p class="text-light italic">{{ element.year }}</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <section class="text-tertiary mt-18" id="about">
+        <div class="flex flex-col md:flex-row justify-between items-center max-w-7xl mx-auto px-4 lg:px-16 py-8">
             <!-- About Section -->
             <div class="mt-4 md:mt-0 text-left flex flex-col z-10 h-full" data-aos="flip-right">
                 <h2 class="text-4xl font-bold font-serif text-primary md:text-center text-left mb-4">More 
                     <span class="text-transparent bg-clip-text bg-gradient-to-r from-accent-dark to-accent-darker">About Me</span>
                 </h2>
-                <p class="text-base lg:text-lg mt-8 py-8">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, nihil dignissimos. Eius accusantium architecto doloremque deleniti possimus necessitatibus, alias quam modi qui perferendis sequi vero illum doloribus quos tenetur nisi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, optio porro. Voluptas corporis soluta delectus mollitia aliquid dolor enim illo repellat dolores quas numquam eaque, necessitatibus quaerat, error deleniti laboriosam.
+                <p class="text-base lg:text-lg mt-8 py-4">
+                    My technical skill set includes programming languages such as Java and JavaScript. I am proficient in HTML5, CSS3, and popular front-end frameworks like React.js and Vue.js. I am continuing to develop these skills while I complete a certificate in Front-end Development at Wake Technical Community College.
                 </p>
-                <div class="grid grid-cols-3 gap-4 max-w-lg pt-8">
-                    <div class="text-center rounded-xl bg-accent shadow-lg border border-accent-dark p-3">
-                        <h4 class="text-dark font-bold font-serif text-xl sm:text-2xl lg:text-3xl">Lorem</h4>
-                        <p class="text-sm sm:text-base text-dark">Ipsum</p>
-                    </div>
-                    <div class="text-center rounded-xl bg-accent shadow-lg border border-accent-dark p-3">
-                        <h3 class="text-dark font-bold font-serif text-xl sm:text-2xl lg:text-3xl">Lorem</h3>
-                        <p class="text-sm sm:text-base text-dark">Ipsum</p>
-                    </div>
-                    <div class="text-center rounded-xl bg-accent shadow-lg border border-accent-dark p-3">
-                        <h3 class="text-dark font-bold font-serif text-xl sm:text-2xl lg:text-3xl">Lorem</h3>
-                        <p class="text-sm sm:text-base text-dark">Ipsum</p>
-                    </div>
-                </div>
+                <p class="text-base lg:text-lg py-4">
+                    I have practical experience in web application development, acquired through various projects undertaken during my time as a student at UNC Charlotte. During these projects, I engaged in the User Experience design process and front-end development, utilizing tools such as Figma, React.js, and Git. Collaborating with fellow students on many of these projects demonstrated my strong communication, coordination, and successful project delivery within specified deadlines.
+                </p>
+                <p class="text-base lg:text-lg py-4">
+                    I am dedicated to continually expanding my knowledge and skills and am actively pursuing full-time employment opportunities. I'd be happy to connect and explore possible ways we could collaborate.
+                </p>
             </div>
         </div>
     </section>
