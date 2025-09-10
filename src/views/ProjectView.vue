@@ -150,13 +150,12 @@ const FooterSection = defineAsyncComponent(() => import('@/components/FooterSect
                 <h4 class="text-lg font-semibold">Key Achievements</h4>
                 <ul class="w-4/5 ml-8 list-disc">
                     <li>
-                        Developed a dynamic search app using front-end technologies like
-                        HTML, Tailwind CSS, JavaScript and React.
+                        Designed a responsive, interactive UI with an emphasis on user engagement and clarity of information architecture.
+
                     </li>
                     <li>
-                        Leveraged the PokéAPI to fetch data, implemented search
-                        functionality, and displayed Pokémon Pokédex entries, stats, and
-                        types.
+                        Created a component-based layout in React and Tailwind CSS to display real-time Pokémon data from the PokéAPI.
+
                     </li>
                     <li>
                         Users can explore detailed information about their favorite

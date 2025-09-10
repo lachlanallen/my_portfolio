@@ -29,11 +29,11 @@ const Experience = ref([
         company: "University of North Carolina at Charlotte",
         duration: "May 2023 - May 2024",
         description: [
-            "Provided individualized academic support, helping students overcome challenges.",
-            "Fostered a respectful and inclusive classroom by mediating conflicts.",
-            "Balanced rigorous coursework with grading and developing course assignments.",
-            "Ensured clear communication with students and faculty, promptly addressing concerns.",
-            "Held regular office hours to deepen student understanding of course material."
+            "Facilitated student learning by identifying pain points and adapting instructional materials for better comprehension.",
+            "Developed and graded assignments, incorporating clarity and accessibility for diverse learners.",
+            "Practiced empathetic communication and active listening to support students’ academic journeys, fostering a user-first mindset.",
+            "Maintained structured documentation and feedback loops to ensure consistent improvement.",
+            "Promoted an inclusive classroom environment, aligned with universal design principles."
         ]
     },
     {

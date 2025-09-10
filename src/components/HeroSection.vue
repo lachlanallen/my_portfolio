@@ -2,6 +2,7 @@
 import AOS from 'aos';
 import 'aos/dist/aos';
 AOS.init();
+import resume from '/lachlanallen_resume.pdf';
 </script>
 
 <template>
@@ -42,12 +43,14 @@ AOS.init();
                             class="border border-accent-darker px-6 md:px-7 py-3 rounded-full relative group w-full sm:w-max flex justify-center">
                             <div
                                 class="hover:scale-105 transition-all ease-in-out flex justify-center items-center relative">
-                                <div class="svg-container">
-                                    <img src="@/assets/download.svg" alt="download my resume" width="20" height="24" />
-                                    <div class="download-loader text-primary hidden"></div>
+                                <div class="flex items-center">
+                                    <div class="p-1">
+                                        <img src="@/assets/download.svg" alt="download my resume" width="20" height="24" />
+                                        <div class="download-loader text-primary hidden"></div>
+                                    </div>
+                                    <a :href="resume" :download="resume" class="pl-2 text-dark font-medium">Download
+                                        Resume</a>
                                 </div>
-                                <a href="/resume.pdf" download="/resume.pdf" class="pl-2 text-dark font-medium">Download
-                                    Resume</a>
                             </div>
                         </button>
                     </div>
@@ -70,3 +73,7 @@ AOS.init();
         </div>
     </section>
 </template>
+
+<style scoped>
+/* ...existing code... */
+</style>
